@@ -7,15 +7,19 @@ export const navLinks = [
   },
   {
     id: "features",
-    title: "Fitroom",
+    title: "Glasses",
   },
   {
-    id: "product",
-    title: "Product",
+    id: "Sunglasses",
+    title: "Sunglasses",
   },
   {
-    id: "clients",
-    title: "Clients",
+    id: "Accessoires",
+    title: "Accessoires",
+  },
+  {
+    id: "About",
+    title: "About",
   },
 ];
 

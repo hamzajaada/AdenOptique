@@ -20,23 +20,23 @@ import F13 from "./components/F13.jsx";
 const App = () => {
     return (
         <div className=' bg-primary w-full overflow-hidden'>
-          <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+        
             <div className={`${styles.boxWidth}`}>
                 <Navbar/>
             </div>
-          </div>
-          <div className={`${styles.flexStart} bg-primary`}>
-            <div className={`${styles.boxWidth}`}>
+      
+          <div className={` bg-primary `}>
+          
                 <Hero/>
                
-            </div>
+            
           </div>
-          <div className={`${styles.paddingX} ${styles.flexStart} bg-primary`}>
-            <div className={`${styles.boxWidth}`}>
-                <F1/>
-            </div>
-          </div>
+           <div className={` bg-primary`}>
            
+                <F1/>
+          
+          </div>
+           {/*
           <div className={`${styles.paddingX} ${styles.flexStart} bg-primary`}>
             <div className={`${styles.boxWidth}`}>
                 <F2/>
@@ -121,7 +121,7 @@ const App = () => {
             <div className={`${styles.boxWidth}`}>
                 <Copyright/>
             </div>
-          </div>
+          </div> */}
           
           
           
