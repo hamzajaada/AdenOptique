@@ -47,13 +47,13 @@ import ph from './ph.png'
 import SB from './SB.png'
 import coding from './coding.jpg'
 import heroPage from './heroPage.png'
-// import hero from './heroImage.html'
+
 import Menu from './menuImage.png'
 import PT from './PT1.jpg'
 
 export {
   airbnb,
-  // hero,
+ 
   bill,
   Menu,
   binance,
