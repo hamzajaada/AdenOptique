@@ -50,11 +50,29 @@ import heroPage from './heroPage.png'
 
 import Menu from './menuImage.png'
 import PT from './PT1.jpg'
-
+import T1 from './T1.jpg'
+import G1 from './G1.webp'
+import G2 from './G2.webp'
+import f4 from './f4.jpg'
+import f44 from './f44.jpg'
+import f444 from './f444.jpg'
+import f4444 from './f4444.jpg'
+import f5 from './f5.jpg'
+import f55 from './f55.jpg'
+import f7 from './F7.jpg'
 export {
   airbnb,
- 
+  T1,
   bill,
+  G1,
+  f4,
+  f44,
+  f444,
+  f4444,
+  f5,
+  f55,
+  f7,
+  G2,
   Menu,
   binance,
   card,

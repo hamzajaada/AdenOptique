@@ -19,62 +19,64 @@ import F13 from "./components/F13.jsx";
 
 const App = () => {
     return (
-        <div className=' bg-primary w-full overflow-hidden'>
+        <div className=' bg-white w-full   overflow-hidden'>
         
             <div className={`${styles.boxWidth}`}>
                 <Navbar/>
             </div>
       
-          <div className={` bg-primary `}>
+          <div className={` bg-primary  `}>
           
                 <Hero/>
                
             
           </div>
-           <div className={` bg-primary`}>
+           <div className={` `}>
            
                 <F1/>
           
           </div>
-           {/*
-          <div className={`${styles.paddingX} ${styles.flexStart} bg-primary`}>
-            <div className={`${styles.boxWidth}`}>
+          
+          <div className={` `}>
+            
                 <F2/>
-            </div>
+           
           </div>
 
-          <div className={`${styles.paddingX} ${styles.flexStart} bg-primary`}>
-            <div className={`${styles.boxWidth}`}>
+          <div className={``}>
+            
                 <F3/>
-            </div>
+            
 
           </div>
          
-          <div className={`${styles.paddingX} ${styles.flexStart} bg-primary`}>
-            <div className={`${styles.boxWidth}`}>
+          <div className={``}>
+            
                 <F4/>
-            </div>
+            
             
           </div>
         
-          <div className={`${styles.paddingX} ${styles.flexStart} bg-primary`}>
-            <div className={`${styles.boxWidth}`}>
+          <div className={``}>
+            
                 <F5/>
-            </div>
+         
             
           </div>
           
-          <div className={`${styles.paddingX} ${styles.flexStart} bg-primary`}>
-            <div className={`${styles.boxWidth}`}>
-                <F6/>
-            </div>
-          </div>
+          <div className={`y`}>
            
-          <div className={`${styles.paddingX} ${styles.flexStart} bg-primary`}>
-            <div className={`${styles.boxWidth}`}>
+                <F6/>
+            
+          </div>
+         
+           
+          <div className={``}>
+           
                 <F7/>
-            </div>
-          </div> 
+         
+          </div>
+            {/* 
            
           <div className={`${styles.paddingX} ${styles.flexStart} bg-primary`}>
             <div className={`${styles.boxWidth}`}>
@@ -109,14 +111,15 @@ const App = () => {
                 <F13/>
             </div>
           </div>
+          */}
+          <div className={``}>
           
-          <div className={`${styles.paddingX} ${styles.flexStart} bg-primary`}>
-            <div className={`${styles.boxWidth}`}>
                 <Footer/>
-            </div>
+            
           </div>
           
            
+           {/* 
           <div className={`${styles.paddingX} ${styles.flexStart} bg-primary`}>
             <div className={`${styles.boxWidth}`}>
                 <Copyright/>
