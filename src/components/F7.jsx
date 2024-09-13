@@ -14,10 +14,10 @@ const F7 = () => {
     >
       <div className='w-full h-[70vh] flex flex-col justify-center items-center bg-cover'>
         <div className='text-center text-white'>
-          <p className='text-3xl font-bold'>Eyewear home</p>
-          <p className='text-lg'>Modern store template</p>
+          <p className='font-poppins font-bold cursor-pointer text-[85px]'>Eyewear home</p>
+          <p className='font-poppins font-medium cursor-pointer text-[45px]'>Modern store template</p>
         </div>
-        <button className='py-3 px-10 mt-5  font-poppins   cursor-pointer text-[16px] tracking-[1px] hidden sm:block   text-white font-semibold   bg-move rounded-md'>
+        <button className='py-3 px-16 mt-5  font-poppins  tracking-[3px]     cursor-pointer text-[16px]  hidden sm:block   text-white font-semibold   bg-move rounded-md'>
           Shop
         </button>
       </div>
